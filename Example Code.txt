@@ -63,9 +63,9 @@ void setup()
       Serial.print("DHCP IP address: ");
       Serial.println(WiFi.localIP());
 
-      if (0) {    // Select 1 for static IP, select 0 for dynamic IP, this is needed for the Philips WLAN-PUB
+      if (0) {    // Select 1 for static IP, select 0 for dynamic IP.
                   // config static IP, in this program the IP address is set in two places.
-          IPAddress ip(192, 168, 1, 101); // where xx is the desired IP Address
+          IPAddress ip(192, 168, 1, xxx); // where xxx is the desired IP Address
           IPAddress gateway(192, 168, 1, 1); // set gateway to match your network
           Serial.print(F("Setting IP Address to static ip: "));
           IPAddress subnet(255, 255, 255, 0); // set subnet mask to match your network
