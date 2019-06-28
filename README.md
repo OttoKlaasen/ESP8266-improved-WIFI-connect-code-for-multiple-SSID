@@ -7,4 +7,4 @@ Feel free to modify and improve.
 
 The example file shows the code.....
 
-It shows also how to do a DHCP dynamic adress or a static address to be assigned to your ESP3266 device.
+It shows also how to do a DHCP dynamic address or a static address to be assigned to your ESP3266 device.
