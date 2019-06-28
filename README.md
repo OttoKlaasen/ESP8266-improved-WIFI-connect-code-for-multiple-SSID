@@ -1,14 +1,11 @@
 # ESP3266-improved-WIFI-connect-code-for-multiple-SSID
 ESP3266-improved-WIFI-connect-code-for-multiple-SSID, example shown is for two SSID, if first fails than second is tried.
 
-# ESP3266-improved-WIFI-connect-code-for-multiple-SSID
-This example code shows how to connect to a second SSID if the first on is not availabe.
 Of course the code can be extended to have more than two SSID's , feel free to play with this.
 This example code is only published to show how to connect to multiple SSID's.
 Feel free to modify and improve.
 
 //  #include <Arduino.h> in case you use PlatformIO IDE
-
 
 // Replace with your network credentials
 const char* ssid     = "YourSSID";
@@ -21,8 +18,6 @@ String MyLocalIp;  // A variable to save IP address
 
 // Set web server port number to 80
 WiFiServer server(80);
-
-
 
 void setup()  
 {
@@ -78,7 +73,6 @@ void setup()
           Serial.print("Local Ip set to IP address: ");
           Serial.println(MyLocalIp);
       }
-
       server.begin();
       }
 
